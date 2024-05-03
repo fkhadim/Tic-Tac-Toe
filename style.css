@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  width: 600px;
+  margin-bottom: 100px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container > div > div {
+  cursor: pointer;
+  font-size: 70px;
+  width: 100px;
+  margin: 30px;
+  text-align: center;
+}
+
+.msg {
+  display: none;
+}
+
+.info-container {
+  text-align: center;
+}
